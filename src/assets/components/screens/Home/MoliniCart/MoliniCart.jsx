@@ -8,7 +8,7 @@ function MoliniCart({cartMolini}) {
                 <img src={cartMolini.arrow} alt="" />
             </div>
             <div className={styles.info}>
-                <div className={styles.title}><h1>{cartMolini.title}</h1></div>
+                <div className={styles.title}><h2>{cartMolini.title}</h2></div>
                 <div className={styles.content}>{cartMolini.content}</div>
                 <div className={styles.link}>{cartMolini.link}</div>
             </div>

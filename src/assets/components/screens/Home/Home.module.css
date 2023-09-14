@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 .content{
     font-family: 'Inter', sans-serif;
@@ -13,7 +16,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
 .title{
@@ -28,69 +31,13 @@
 
 .title p{
     font-size: 32px;
+    letter-spacing: 6px;
+    color:#fff;
 }
 .title hr{
     display: inline-block;
-    width: 37%;
+    width: 30%;
     margin-bottom: 7px;
-}
-
-.molina{
-    background-image: url('/public/molina.png');
-    height: 800px;
-    width: 100%;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    font-family: 'Montserrat';
-}
-
-.molinaTitle {
-    color: #fff;
-    text-align: center;
-    margin-bottom: 5%;    
-}
-.molinaTitle h1{
-    font-size: 80px;
-}
-
-.molinaTitle p{
-    font-size: 32px;
-}
-
-.calypso{
-    background-image: url('/public/calypso.png');
-    height: 800px;
-    width: 100%;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    font-family: 'Montserrat';
-}
-
-.calypsoTitle {
-    color: #fff;
-    text-align: center;
-    margin-bottom: 5%;    
-}
-.calypsoTitle h1{
-    font-size: 80px;
-}
-
-.calypsoTitle p{
-    font-size: 32px;
-}
-
-.newProducts__title{
-    font-size: 40px;
-    margin: 5% 0;
-    text-align: center;
-    font-weight: 300;
-
 }
 
 .productItems {
@@ -101,18 +48,9 @@
 .productItems > *{
     padding: 2.8%;
 }
-.productItems > *:not(:first-child):not(:last-child) {
-border-left: .5px solid black; 
-border-right: 1px solid black; 
-}
-
-.productItems > *:not(:first-child) {
-border-left: 1px solid black; 
-
-}
 
 .productItems > *:not(:last-child) {
-border-right: 1px solid black; 
+border-right: 1px solid #ababab; 
 
 }
 .btnViewAll{
@@ -182,8 +120,12 @@ border-right: 1px solid black;
     grid-template-areas: 'info1 info2';    
 }
 .inspireInfo__content p{
-    font-size: 28px;
     margin: 3%;
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
 }
 .inspireInfo__content p:first-child{
     grid-area: info1;
@@ -193,13 +135,80 @@ border-right: 1px solid black;
 }
 .inspireInfo__title{
     grid-area: title;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 80px;
     text-align: center;
+    font-weight: 400;
+    letter-spacing: 10px;
 }
 .inspare__p{
     font-size: 32px;
     text-align: center;
+    font-family: 'Inter', sans-serif;
     font-weight: 100;
     margin: 8% 0;
+}
+
+
+
+.molina{
+    background-image: url('/public/molina.png');
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.molinaTitle {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5%;    
+}
+.molinaTitle h1{
+    font-size: 80px;
+    letter-spacing: 16px;
+}
+
+.molinaTitle p{
+    font-size: 32px;
+    letter-spacing: 3.5px;
+}
+
+.calypso{
+    background-image: url('/public/calypso.png');
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.calypsoTitle {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5%;    
+    
+}
+.calypsoTitle h1{
+    font-size: 80px;
+    letter-spacing: 16px;
+}
+
+.calypsoTitle p{
+    font-size: 32px;
+    letter-spacing: 3.5px;
+}
+
+.newProducts__title{
+    font-size: 40px;
+    margin: 5% 0;
+    text-align: center;
+
 }

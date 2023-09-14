@@ -8,7 +8,6 @@ function ProductCategory({category}){
                     <img src={category.image} alt=""/>
                 </div>
                 <p className={styles.itemTitle}>{category.title}</p>
-                <p className={styles.filter}>Filter <img src="/public/vector.svg" alt="" /></p>
             </div>
     
         </div>

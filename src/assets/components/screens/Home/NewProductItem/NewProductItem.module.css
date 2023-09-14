@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 .cart{
     position: relative;
 }
 .title{
     margin-bottom: 4%;
+    font-weight: 400;
 }
 
 .cart hr{
     width: 100%;
-    
+    background-color: #ababab; 
 }
-
 .image img{
     max-width: 374px;
     max-height: 235px;

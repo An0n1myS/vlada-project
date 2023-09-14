@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 .cart{
     margin: 2% auto;
     display: flex;
     width: 90%;
-    
+    font-family: 'Inter', sans-serif;
     font-family: Inter;
     justify-content: space-between;
 }
 .arrow{
-    margin-top: 2%;
+    margin-top: 1%;
 }
 .info{
     width: 90%;

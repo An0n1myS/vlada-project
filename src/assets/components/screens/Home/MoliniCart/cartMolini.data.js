@@ -13,7 +13,7 @@ export const cartsMolini = [
         title: 'View our Furniture',
         content: "All customers, interior designers and architects are welcome to visit our partner shops and authorised points of sale, BOUTIQUE by MEB. There you will receive professional assistance in choosing furniture, its functionality, the latest trends, as well as the types and colours of fabrics and leather.",
         image: '/public/post2.png',
-        link: '',
+        link: 'Shop',
     },
     {
         id:3,
@@ -21,6 +21,6 @@ export const cartsMolini = [
         title: 'Looking for inspiration?',
         content: 'About furniture, fabrics, features and new trends.',
         image: '/public/post3.png',
-        link: '',
+        link: 'Collections',
     }, 
 ]

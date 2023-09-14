@@ -13,7 +13,8 @@ function NewProductItem({newSofa}) {
             <p className={styles.price}> {new Intl.NumberFormat('us-US', {
                     style:'currency',
                     currency: 'USD', 
-                }).format(newSofa.price)}
+                    currencyDisplay: 'narrowSymbol',
+                }).format(Math.round(newSofa.price))}
             </p>
             <div className={styles.btnArrowDiv}>
                 <button className={styles.btnArrow}><img src="/public/arrowbtn.png" alt="" /></button>
