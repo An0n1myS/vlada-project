@@ -1,0 +1,44 @@
+.cart{
+    position: relative;
+}
+.title{
+    margin-bottom: 4%;
+}
+
+.cart hr{
+    width: 100%;
+    
+}
+
+.image img{
+    max-width: 374px;
+    max-height: 235px;
+    padding: 6% 0;
+}
+
+.collection{
+    margin-bottom: 3%;
+    color: rgba(168, 168, 168, 1);
+}
+
+.price{
+    margin-bottom: 3%;
+    font-weight:bold;
+}
+
+.btnArrowDiv{
+    display: flex;
+    position: absolute;
+    
+    justify-content: end;
+    width: 100%;
+    right: 9%;
+    bottom: 7%;
+    
+}
+.btnArrow{
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}

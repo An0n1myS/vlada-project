@@ -1,0 +1,37 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 6%;
+    margin-top: 4%;
+    font-family: 'Inter', sans-serif;
+    background: transparent;
+
+}
+
+.menu{
+    margin: auto 0;
+    
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 19px;
+}
+
+li{
+    margin: auto 12px;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+li>*{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;   
+}

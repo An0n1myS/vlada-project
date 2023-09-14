@@ -1,0 +1,54 @@
+.item{
+    border: 1px solid #EFEFEF;
+    padding: 5%;
+    max-width: 100%;
+}
+.item:nth-child(odd){
+    border-left: transparent;
+    border-top: transparent;
+}
+
+.item:nth-child(even){
+    border-right:transparent;
+    border-top: transparent;
+}
+
+.item:last-child {
+    border-bottom: transparent;
+}
+
+.item:nth-last-child(2) {
+    border-bottom: transparent;
+}
+  
+.itemWrapper{
+    max-width: 100%;
+    padding-top: 15%;
+    background: #FBFBFB;
+    
+
+}
+.itemImg{
+    max-width: 566px;
+    
+
+}
+.itemImg img{
+    width: 100%;
+    height: 239px;
+   
+}
+
+.itemTitle{
+    font-size: 24px;
+    font-family: 'Inter';
+    text-align: center;
+    margin: 3% 0;
+}
+.filter{
+    color: #A8A8A8;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Inter';
+    padding: 3% 0;
+}
