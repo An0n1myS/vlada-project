@@ -4,6 +4,7 @@ import Footer from "../../ui/footer/Footer";
 import {categories} from './Products.data.js';
 import ProductCategory from './ProductCategory/ProductCategory';
 
+
 function Product(){
     return(
         <>

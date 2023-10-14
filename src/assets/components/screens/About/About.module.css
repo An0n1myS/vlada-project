@@ -1,0 +1,172 @@
+
+
+.first_block{
+    background-image: url('/public/about.png');
+    height: 900px;
+    background-size: cover;
+    margin-top: -7.7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.first_block__title{
+    margin-bottom: 7.7%;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 16px;
+}
+
+.second_block{
+    margin: 5% auto;
+    width: 50%;
+    text-align: center;
+}
+.second_block__title{
+    margin-bottom: 2%;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 7.2px;
+}
+.second_block__content{
+    margin-top: 2%;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+
+.collections{
+    width: 95%;
+    margin: 5% auto;
+    
+}
+.collections__first{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3% 0;
+}
+.collection_list1{
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 48px */
+    margin: 3% 0;
+    justify-content: space-evenly;
+
+}
+.collection_img1{
+    width: 711px;
+    height: 471px;
+    flex-shrink: 0;
+}
+.collections__second{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3% 0;
+}
+.collection_list2{
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 48px */
+    margin: 3% 0;
+    justify-content: space-evenly;
+
+}
+.collection_img2{
+    width: 711px;
+    height: 471px;
+    flex-shrink: 0;
+}
+
+.calypso{
+    background-image: url('/public/calypso.png');
+    width: 100%;
+    height: 912px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.calypsoTitle {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5%;    
+    
+}
+.calypsoTitle h1{
+    font-size: 80px;
+    letter-spacing: 16px;
+}
+
+.calypsoTitle p{
+    font-size: 32px;
+    letter-spacing: 3.5px;
+}
+
+.last_block{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 7% auto;
+}
+.last_block__info{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-content: center;
+    margin-right: 5%;
+    padding: 5%;
+}
+.last_block__img{
+    width: 605px;
+    height: 619px;
+}
+.info_title{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; 
+    margin: 5% 2%;
+}
+.info__content{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
